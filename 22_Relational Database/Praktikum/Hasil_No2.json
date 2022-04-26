@@ -1,0 +1,42 @@
+{
+    "data": {
+      "anggota": [
+        {
+          "id": 1,
+          "nama": "Budi",
+          "OneToMany": [
+            {
+              "pelajaran": "Sistem Informasi"
+            },
+            {
+              "pelajaran": "React"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nama": "Sita",
+          "OneToMany": [
+            {
+              "pelajaran": "Sistem Informasi"
+            },
+            {
+              "pelajaran": "React"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "nama": "Angga",
+          "OneToMany": [
+            {
+              "pelajaran": "Sistem Informasi"
+            },
+            {
+              "pelajaran": "React"
+            }
+          ]
+        }
+      ]
+    }
+  }

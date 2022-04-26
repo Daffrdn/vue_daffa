@@ -1,0 +1,57 @@
+{
+    "data": {
+      "anggota": [
+        {
+          "id": 1,
+          "nama": "Budi",
+          "OneToOne": {
+            "id_anggota": 1
+          },
+          "OneToMany": [
+            {
+              "pelajaran": "Sistem Informasi",
+              "nilai": 85
+            },
+            {
+              "pelajaran": "React",
+              "nilai": 65
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nama": "Sita",
+          "OneToOne": {
+            "id_anggota": 2
+          },
+          "OneToMany": [
+            {
+              "pelajaran": "Sistem Informasi",
+              "nilai": 90
+            },
+            {
+              "pelajaran": "React",
+              "nilai": 50
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "nama": "Angga",
+          "OneToOne": {
+            "id_anggota": 3
+          },
+          "OneToMany": [
+            {
+              "pelajaran": "Sistem Informasi",
+              "nilai": 90
+            },
+            {
+              "pelajaran": "React",
+              "nilai": 55
+            }
+          ]
+        }
+      ]
+    }
+  }

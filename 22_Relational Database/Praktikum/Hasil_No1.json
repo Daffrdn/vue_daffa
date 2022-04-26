@@ -1,0 +1,27 @@
+{
+    "data": {
+      "anggota": [
+        {
+          "nama": "Budi",
+          "id": 1,
+          "OneToOne": {
+            "id_anggota": 1
+          }
+        },
+        {
+          "nama": "Sita",
+          "id": 2,
+          "OneToOne": {
+            "id_anggota": 2
+          }
+        },
+        {
+          "nama": "Angga",
+          "id": 3,
+          "OneToOne": {
+            "id_anggota": 3
+          }
+        }
+      ]
+    }
+  }

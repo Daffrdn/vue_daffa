@@ -1,0 +1,20 @@
+{
+  "data": {
+    "keterangan": [
+      {
+        "status": true,
+        "anggotum": {
+          "id": 1,
+          "nama": "Budi"
+        }
+      },
+      {
+        "status": true,
+        "anggotum": {
+          "id": 2,
+          "nama": "Sita"
+        }
+      }
+    ]
+  }
+}

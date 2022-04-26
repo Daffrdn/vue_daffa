@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar</title>
+    <style type="text/css">
+        .center  { text-align: center;}
+        .justify { text-align: justify;}
+    </style>
+</head>
+<body>
+    <h1 class="center">Buat Akun Baru!</h1>
+    <fieldset><legend><h2>Sign Up Form</h2></legend>
+        <form> 
+	        <br>First Name:</br>
+            <input type="text" name="firstName" placeholder="Masukan Nama Depan" required/>
+        <p>
+	        <br>Last Name:</br>
+            <input type="text" name="lastName" placeholder="Masukan Nama Belakang" required/>
+        </p>
+        <p>
+	        <br>Gender:</br>
+            <input type='radio' name='gender' value='male' />Male</br>
+            <input type='radio' name='gender' value='female' />Female</br>
+            <input type='radio' name='gender' value='other' />Other</br>
+        </p>
+        <p>
+	        <br>Nasionality:</br>
+            <select name='Nasionality' required>
+              <option value='Indonesia'>Indonesia</option>
+              <option value='Australia'>Australia</option>
+              <option value='India'>India</option>
+              <option value='Russia'>Russia</option>
+              <option value='Belanda'>Belanda</option>
+            </select>
+        </p>
+        <p>
+            <br>Language Spoken:</br>
+            <input type='checkbox' name='bahasaind' value='bindo' />Bahasa Indonesia</br>
+            <input type='checkbox' name='bahasaeng' value='beng' />Bahas Inggris</br>
+            <input type='checkbox' name='other' value='other' />Other</br>
+        </p>
+        <p>
+            <br>Bio:</br>
+        <textarea rows="7" cols="50" name="Bio" required></textarea><br/> 
+        </p>
+    </form>
+        <a href="welcome.html"><input type="submit" value="Sign Up" required/></a>
+    </fieldset>
+</body>
+</html>

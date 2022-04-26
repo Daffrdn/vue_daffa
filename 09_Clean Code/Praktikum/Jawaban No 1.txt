@@ -1,0 +1,6 @@
+1. variabel tidak bisa dideklarasikan didalam class harus diluar jadi mencakup global
+2. deklarasi dari variabel var tidak bagus dan tidak mdah diingat , seharusnya userId, username, dan password
+3. deklarasi dari variabel tidak memiliki isi sama sekali
+4. didalam class user service user [] ada 3 merupakan konteks yang tidak perlu
+5. class ata argument dari users tidak ada maka return tersebut sia sia.
+6. return dari class geruserbyid tidak berpengaruh apapun karena deklarasi var didalam class yg berbeda.
